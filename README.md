@@ -43,6 +43,11 @@ BEGIN
 END
 ```
 
+```sql
+-- hacemos uso del procedimiento almacenado
+CALL cantidad_copias;
+```
+
 > **Segundo ejercicio** creamos una consulta que obtenga el titulo, la duracion, el genero, y las partes extras de cada pelicula.
 
 ```sql
@@ -81,6 +86,12 @@ BEGIN
         GROUP BY f.title, l.name, c.name, f.special_features LIMIT 20;
 END
 ```
+
+```sql
+-- llamamos al procedimiento almacenado
+CALL datos_peliculas;
+```
+
 
 ### SQL SERVER - 
 

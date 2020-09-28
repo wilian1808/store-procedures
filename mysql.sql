@@ -38,7 +38,6 @@ END
 -- llamamos al procedimiento almacenado
 CALL cantidad_copias;
 
-
 -- SEGUNDO EJERCICIO
 -- creamos una consulta que
 -- obtenga el titulo, la duracion, el genero, y las partes extras de cada pelicula
